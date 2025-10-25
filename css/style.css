@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     font-family: "Roboto", sans-serif;
     /* background-color: #f5f5f5; */
@@ -104,7 +100,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 600px;
     overflow: hidden;
 }
 .circle {
@@ -114,13 +110,13 @@ h1 {
     bottom: 1rem;
     border-radius: 50%;
     clip-path: inset(0 0 50% 0);
-    top: 200px;
+    top: 19rem;
     background-color: #B4E50D;
 }
 
 .profile {
-    height: 25rem;
-    width: clamp(17rem, 1vw, 15rem);
+    height: 30rem;
+    width: clamp(19rem, 1vw, 19rem);
     position: absolute;
     bottom: 0;
 }
@@ -132,7 +128,7 @@ h1 {
     position: absolute;
     backdrop-filter: blur(7px);
     border-radius: 25px;
-    top: 12rem;
+    top: 28rem;
     z-index: 2;
 }
 
@@ -440,23 +436,13 @@ h1 {
     }
     
     .circle {
-        width: 45rem;
+        width: 25rem;
         height: 25rem;
-        top: 14rem;
+        top: 19rem;
     }
     .profile {
         height: 20rem;
         width: clamp(12rem, 15vw, 15rem);
-        top: 5rem;
-    }
-    .button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        backdrop-filter: blur(7px);
-        border-radius: 25px;
-        top: 15rem;
     }
     .button a {
         font-size: 0.5rem;
@@ -518,7 +504,7 @@ h1 {
     }
     
     :root[menu-open] #nav-bar {
-        height: 50%;
+        height: 25%;
     }
     
     :root[menu-open] #nav-bar a {
